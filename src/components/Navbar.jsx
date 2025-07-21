@@ -69,7 +69,7 @@ export default function Navbar() {
 
       {open && (
         <ul className="md:hidden flex flex-col items-center gap-4 pb-6 bg-white shadow-md text-sm font-medium transition-all">
-          {["/", "/about", "/last-invoice", "/faq"].map((path, idx) => (
+          {["/", "/about", "/Saved-invoice", "/faq"].map((path, idx) => (
             <li key={idx}>
               <Link
                 to={path}
